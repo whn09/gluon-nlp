@@ -1,4 +1,4 @@
-FROM 579019700964.dkr.ecr.ap-northeast-1.amazonaws.com/preprod-mxnet:1.4.1-cpu-py3
+FROM 579019700964.dkr.ecr.ap-northeast-1.amazonaws.com/preprod-mxnet-serving:1.4.1-cpu-py3
 
 RUN pip install gluonnlp
 
